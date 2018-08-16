@@ -108,14 +108,32 @@ textarea {
 body {
     display: block;
     margin: 0;
+    padding: 10vw;
+    background-image: url("../img/sakura.png");
+    background-repeat: repeat;
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+h4 {
+    margin-bottom: 4vh;
+}
+
+h3 {
+    font-style: italic;
 }
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    color: red;
+    color: lightseagreen;
 }
 
 header {
